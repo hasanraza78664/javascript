@@ -134,6 +134,10 @@ else if(percentage>=60){
 else{
     document.write("Got Fail")
 }
+
+
+
+"Task mno"
 var guess= +prompt("guess the number");
 var secret= Math.random ()*10;
 var secret3= Math.floor (secret);
@@ -149,3 +153,40 @@ if(secret3===guess){
 if(secret3=== guess2){
     document.write("close enought to answer")
 }
+
+"task no"
+var num= prompt("Enter the number")
+
+if(num%2 ===0){
+    document.write( num + " is Even")
+}
+else{
+    document.write(num+" is Odd");
+}
+
+"task no"
+var num= prompt("Enter the number")
+
+if(num%3 ===0){
+    document.write( num + " is divisible by 3")
+}
+else{
+    document.write(num+" is not dividible by 3");
+}
+
+
+var temp= prompt("Enter the temperature");
+
+if(temp>40){
+    document.write("It's too hot")
+}
+else if(temp>30){
+    document.write("It's Normal")
+}
+else if(temp>20){
+    document.write("It's Cool")
+}
+else if(temp>10){
+    document.write("It's too cool")
+}
+
