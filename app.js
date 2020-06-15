@@ -7,7 +7,7 @@ alert("Hi There");
 alert("Error! Plaese Enter a valid Password");
 
 "task no 3"
-// alert("Welcome to JSland",  "<br/>","Happy Coding!");
+alert("Welcome to JSland",  "<br/>","Happy Coding!");
 
 "task no 3"
 console.log("Hello,I can run Js through web browser console");
