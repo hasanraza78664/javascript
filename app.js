@@ -254,10 +254,6 @@ for(var i =1; i<=10;i++){
 }
 
 
-var k = prompt("Enter the number for table");
-for(var j=1;j<=10;j++){
-    document.write(k + " x ", j + " = " + k*j, "<br/>");
-}
 
 
 var k;
@@ -286,3 +282,9 @@ document.write(fiv);
 document.write(six);
 document.write(seven);
 document.write(eig);
+
+
+var k = prompt("Enter the number for table");
+for(var j=1;j<=10;j++){
+    document.write(k + " x ", j + " = " + k*j, "<br/>");
+}
